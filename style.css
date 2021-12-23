@@ -1,0 +1,58 @@
+body {
+    background: rgb(37, 38, 104);
+}
+
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    margin: 60px;
+   
+    
+
+    border: solid 20px red;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    
+
+    animation: spin 1s infinite;
+}
+
+.spinner2 {
+    width: 80px;
+    height: 80px;
+    margin-left: 60px;
+ 
+    
+
+    border: solid 3px yellow;
+    border-radius: 50%;
+    border-top-color: red;
+    border-bottom-color: red;
+    
+
+    animation: spin 0.5s infinite;
+}
+
+.spinner3 {
+    width: 40px;
+    height: 40px;
+    margin: 60px;
+   
+    
+
+    border: solid 20px yellow;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    
+
+    animation: spin 1s infinite;
+}
+
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg) scale(1.2);}
+    100% {transform: rotate(360deg);}
+}
